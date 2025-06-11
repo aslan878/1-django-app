@@ -1,1 +1,1 @@
-web: gunicorn <aslanweb>.wsgi
+web: gunicorn aslanweb.wsgi
