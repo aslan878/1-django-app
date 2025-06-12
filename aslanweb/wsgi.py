@@ -15,6 +15,5 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'aslanweb.settings')
 
 application = get_wsgi_application()
 
-from whitenoise import WhiteNoise
-application = WhiteNoise(application, root=os.path.join(BASE_DIR, 'staticfiles'))
+
 
