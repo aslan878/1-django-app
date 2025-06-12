@@ -58,19 +58,22 @@ button {
     }
 
     aside {
-        writing-mode: vertical-lr;
         width: 100%;
         height: auto;
         border-right: none;
         border-bottom: 7px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 15px;
     }
 
     aside ul li {
-        font-size: 12.5px;
+        font-size: 15px;
     }
 
     aside img {
-    width: 80px;
+    width: 0px;
     }
 }
 
