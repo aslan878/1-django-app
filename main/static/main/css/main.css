@@ -76,5 +76,8 @@ button {
     aside img {
     width: 80px;
     }
+    aside ul a:hover {
+    font-size: 19px;
+    }
 }
 
