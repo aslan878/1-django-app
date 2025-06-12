@@ -66,6 +66,7 @@ button {
         flex-direction: row;
         justify-content: flex-end;
         gap: 15px;
+        font-size: 15px;
     }
 
     aside ul li {
@@ -73,7 +74,7 @@ button {
     }
 
     aside img {
-    width: 0px;
+    width: 80px;
     }
 }
 
