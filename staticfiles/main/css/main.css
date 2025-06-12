@@ -53,6 +53,22 @@ button {
 
 @media (max-width: 500px) {
     body {
-        background: red;
+        flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-bottom: 7px solid black;
+    }
+
+    aside ul li {
+        font-size: 12.5px;
+    }
+
+    aside img {
+    width: 50px;
     }
 }
+
