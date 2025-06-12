@@ -3,7 +3,6 @@ body {
     margin: 0;
     display: flex;
     min-height: 100vh;
-    flex-direction: row;
 }
 
 aside {
@@ -16,6 +15,31 @@ aside {
     border-right: 7px solid black;
 }
 
+aside img {
+    width: 200px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside ul li {
+    color: LightCyan;
+    display: block;
+    font-size: 25px;
+    transition: all .4s ease;
+}
+
+aside ul li:hover,
+aside ul a:hover {
+    color: DarkCyan;
+    font-size: 29px;
+}
+
 main {
     float: left;
     margin-top: 100px;
@@ -23,21 +47,12 @@ main {
     flex: 1;
 }
 
+button {
+    color: red;
+}
 
 @media (max-width: 500px) {
     body {
-        flex-direction: column;
-    }
-
-    aside {
-        width: 100%;
-        height: auto;
-        border-right: none;
-        border-bottom: 7px solid black;
-    }
-
-    main {
-        margin-top: 20px;
-        padding: 10px;
+        background: red;
     }
 }
