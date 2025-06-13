@@ -68,8 +68,10 @@ main {
     aside ul li:hover,
     aside ul a:hover {
         font-size: 19px;
+    }
 
     aside img {
         width: 0px;
     }
+
 }

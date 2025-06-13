@@ -121,12 +121,16 @@ USE_TZ = True
 STATIC_URL = "/static/"
 
 STATICFILES_DIRS = [
-    BASE_DIR / "main/static",  # путь к твоим исходным стилям
+    BASE_DIR / "main/static",
 ]
 
-STATIC_ROOT = BASE_DIR / "staticfiles"  # сюда будет собираться статика для продакшена
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
+
