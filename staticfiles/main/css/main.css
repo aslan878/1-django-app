@@ -55,7 +55,7 @@ main {
     }
 
     aside {
-        width: 80%;
+        width: 100%;
         height: auto;
         border-right: none;
         border-bottom: 7px solid black;
