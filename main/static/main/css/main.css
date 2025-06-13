@@ -61,8 +61,8 @@ main {
         border-bottom: 7px solid black;
         display: flex;
         flex-direction: row;
-        gap: 12px;
-        font-size: 14px;
+        gap: 15px;
+        font-size: 15px;
     }
 
     aside ul li:hover,
@@ -71,7 +71,7 @@ main {
     }
 
     aside img {
-        width: 0px;
+        width: 80px;
     }
 
 }
