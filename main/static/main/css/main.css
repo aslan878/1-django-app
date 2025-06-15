@@ -51,7 +51,6 @@ main {
     text-align: center;
     float: left;
     margin-top: 100px;
-    text-align: left;
     flex: 1;
 }
 
@@ -62,6 +61,7 @@ main {
     }
 
     aside {
+        text-align: left;
         width: 100%;
         height: auto;
         border-right: none;
@@ -69,6 +69,10 @@ main {
         display: flex;
         flex-direction: row;
         gap: 15px;
+    }
+
+    main{
+        text-align: top;
     }
 
     aside ul li,
