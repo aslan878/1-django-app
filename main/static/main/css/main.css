@@ -79,7 +79,7 @@ main {
     aside ul li,
     aside ul a {
         font-size: 15px;
-        display: inline_block;
+        display: inline-block;
     }
 
     aside ul li:hover,
