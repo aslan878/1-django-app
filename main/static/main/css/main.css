@@ -69,6 +69,9 @@ main {
         display: flex;
         flex-direction: row;
         gap: 15px;
+    }
+
+    aside ul{
         font-size: 15px;
     }
 
