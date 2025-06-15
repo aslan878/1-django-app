@@ -71,7 +71,8 @@ main {
         gap: 15px;
     }
 
-    aside ul{
+    aside ul li,
+    aside ul a {
         font-size: 15px;
     }
 
@@ -81,7 +82,7 @@ main {
     }
 
     aside img {
-        width: 60px;
+        width: 0px;
     }
 
 }
